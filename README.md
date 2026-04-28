@@ -42,5 +42,5 @@ Per la fase finale di monitoraggio e reporting, abbiamo sviluppato dashboard int
    `Spreco_alimentare_tableau.twb`: Dashboard Tableau per la visualizzazione dei dati.
 
 💡 Note Tecniche
-Il database applica una logica di sconto progressivo e restrizioni rigorose: 
+Il database applica una logica di sconto progressivo e restrizioni rigorose:
 ---> "L'utente che si registra come Privato non gode di alcuna agevolazione. Solo le attività benefiche hanno accesso a listini agevolati.
