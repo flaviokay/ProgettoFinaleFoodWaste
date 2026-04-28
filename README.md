@@ -13,9 +13,22 @@ L'applicazione gestisce il flusso di prodotti alimentari con scadenza imminente 
 *   **VENDITORI:** Ingrossi alimentari, supermercati, minimarket.
 *   **ACQUIRENTI:** Mense, banchi alimentari, ONLUS e clienti privati.
 
+
+🔍 1. Data Sourcing & Preparation
+
+Prima della modellazione, abbiamo affrontato una fase critica di reperimento e raffinamento dei dati:
+
+  **Data Retrieval**: Ricerca e selezione di dataset pertinenti tramite Kaggle, Google Dataset Search e portali di Open Data istituzionali per ottenere dati realistici su anagrafiche, listini prezzi e categorie merceologiche.
+  **Data Cleaning** (Excel & Power Query):
+  **Rimozione** di duplicati e gestione dei valori nulli/mancanti.
+  **Normalizzazione** dei formati (date, valute, stringhe).
+  **Standardizzazione** delle categorie alimentari per garantire la coerenza tra il database SQL e le dashboard di BI.
+  **Data Enrichment**: Integrazione di diverse fonti per simulare un ecosistema di dati eterogeneo e verosimile.
+
+
 🛠️ Tech Stack & Architettura
 
-1. Database & Business Logic (MySQL)
+2. Database & Business Logic (MySQL)
  
 Il cuore del progetto risiede in un database relazionale robusto con vincoli di integrità e automazioni avanzate:
    **Modellazione E-R:** Struttura ottimizzata per la gestione di utenti, prodotti, annunci e ordini.
@@ -23,13 +36,13 @@ Il cuore del progetto risiede in un database relazionale robusto con vincoli di 
    **Funzioni & View:** Calcolo dinamico del totale ordine (al netto di sconti e agevolazioni) e viste dedicate per il catalogo annunci in tempo reale.
    **Regole di Business:** Validazione di P.IVA/CF, controllo maggiore età e gestione automatica delle agevolazioni per enti benefici.
 
-2. Data Processing & EDA (Python)
+3. Data Processing & EDA (Python)
  
 Utilizzando **Google Colab**, abbiamo interfacciato Python e SQL per la pulizia e l'analisi dei dati:
    **Librerie:** `pandas`, `numpy`, `matplotlib`, `seaborn`.
    **EDA (Exploratory Data Analysis):** Analisi della distribuzione demografica degli utenti e studio della varianza dei prezzi per categoria tramite istogrammi e boxplot.
 
-3. Business Intelligence (Power BI & Tableau)
+4. Business Intelligence (Power BI & Tableau)
  
 Per la fase finale di monitoraggio e reporting, abbiamo sviluppato dashboard interattive:
    **Visualizzazione Avanzata:** Creazione di report dinamici per analizzare le performance di vendita e l'impatto dello spreco evitato.
