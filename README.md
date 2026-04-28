@@ -1,3 +1,6 @@
+<img width="2291" height="1246" alt="Screenshot 2026-04-28 170957" src="https://github.com/user-attachments/assets/3ae1f37b-d4ef-4a14-a7ed-69d2b13cd1a2" />
+<img width="693" height="778" alt="FOODWASTEERDIAG" src="https://github.com/user-attachments/assets/fdc1050e-744d-4720-af0a-9a82c7b34c9c" />
+
 # ProjectWorkFoodWaste
 
 # N.O.W.A.S.T.E. 🍎
