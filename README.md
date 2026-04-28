@@ -1,4 +1,4 @@
-# ProgettoFinaleFoodWaste
+# ProjectWorkFoodWaste
 
 # N.O.W.A.S.T.E. 🍎
 ### Network for Optimization of Waste and Surplus Tracking Ecosystem
