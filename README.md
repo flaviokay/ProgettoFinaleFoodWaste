@@ -23,13 +23,13 @@ Il cuore del progetto risiede in un database relazionale robusto con vincoli di 
    **Funzioni & View:** Calcolo dinamico del totale ordine (al netto di sconti e agevolazioni) e viste dedicate per il catalogo annunci in tempo reale.
    **Regole di Business:** Validazione di P.IVA/CF, controllo maggiore età e gestione automatica delle agevolazioni per enti benefici.
 
-3. Data Processing & EDA (Python)
+2. Data Processing & EDA (Python)
  
 Utilizzando **Google Colab**, abbiamo interfacciato Python e SQL per la pulizia e l'analisi dei dati:
    **Librerie:** `pandas`, `numpy`, `matplotlib`, `seaborn`.
    **EDA (Exploratory Data Analysis):** Analisi della distribuzione demografica degli utenti e studio della varianza dei prezzi per categoria tramite istogrammi e boxplot.
 
-5. Business Intelligence (Power BI & Tableau)
+3. Business Intelligence (Power BI & Tableau)
  
 Per la fase finale di monitoraggio e reporting, abbiamo sviluppato dashboard interattive:
    **Visualizzazione Avanzata:** Creazione di report dinamici per analizzare le performance di vendita e l'impatto dello spreco evitato.
