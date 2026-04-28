@@ -39,8 +39,10 @@ Il cuore del progetto risiede in un database relazionale robusto con vincoli di 
 3. Data Processing & EDA (Python)
  
 Utilizzando **Google Colab**, abbiamo interfacciato Python e SQL per la pulizia e l'analisi dei dati:
-   **Librerie:** `pandas`, `numpy`, `matplotlib`, `seaborn`.
+   **Librerie:** `pandas`, `numpy`, `matplotlib`, `seaborn`,`mysql-connector-python`.
    **EDA (Exploratory Data Analysis):** Analisi della distribuzione demografica degli utenti e studio della varianza dei prezzi per categoria tramite istogrammi e boxplot.
+   **Connettività**: Implementazione di un'interfaccia di comunicazione tra MySQL e Python utilizzando la libreria mysql-connector-python. Questo ha permesso l'esecuzione di query dinamiche, il popolamento delle tabelle e il recupero dei dati direttamente all'interno dell'ambiente di analisi.
+   **Automazione**: Sviluppo di script per automatizzare l'inserimento di nuovi prodotti e la gestione degli ordini, superando i limiti della gestione manuale del database.
 
 4. Business Intelligence (Power BI & Tableau)
  
